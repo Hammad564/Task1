@@ -1,0 +1,14 @@
+Primary Keys:
+
+customer_id, product_id, order_id, order_item_id, payment_id
+
+Foreign Keys:
+
+Orders.customer_id → Customer.customer_id
+
+OrderItem.order_id → Orders.order_id
+
+OrderItem.product_id → Product.product_id
+
+Payment.order_id → Orders.order_id
+
